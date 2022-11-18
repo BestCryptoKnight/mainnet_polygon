@@ -1,7 +1,7 @@
 import '@nomiclabs/hardhat-ethers'
 import { ethers } from 'hardhat'
 import * as dotenv from "dotenv";
-import config  from "../config/config.json";
+import config from "../config/config.json";
 
 dotenv.config();
 
@@ -42,6 +42,6 @@ async function main() {
 main()
   .then(() => process.exit(0))
   .catch((error) => {
-    console.error(error)
-    process.exit(1)
+    console.error(error);
+    process.exit(1);
   })
